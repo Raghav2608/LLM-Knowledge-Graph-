@@ -1,8 +1,8 @@
-name: test_prompt
+name: meta
 version: 1.0
 system: |
-  hi you are 
-  {imagine}
+  print the messaage given by the user 
 user: |
-  i know thanks
+  {message}
+  
   
