@@ -1,8 +1,8 @@
 name: test_prompt
 version: 1.0
-user_prompt: |
+system: |
   hi you are 
   {imagine}
-system_prompt: |
+user: |
   i know thanks
   
