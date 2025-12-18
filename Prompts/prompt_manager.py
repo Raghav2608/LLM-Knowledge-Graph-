@@ -4,8 +4,8 @@ from typing import Dict, List
 from os import path
 
 class PromptNotLoaded(Exception):
-    def __init__(self,message):
-        super().__init__("prompt not loaded use method load_prompt() first")
+    def __init__(self):
+        super().__init__("prompt not loaded use method load_prompt() with a valid prompt first")
 
 ROLES = ["system","user","assistant","tool"]
 @dataclass

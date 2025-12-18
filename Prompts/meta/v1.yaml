@@ -1,7 +1,7 @@
 name: meta
 version: 1.0
 system: |
-  print the messaage given by the user 
+  print the message given by the user 
 user: |
   {message}
   
